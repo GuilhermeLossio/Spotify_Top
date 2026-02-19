@@ -1,6 +1,9 @@
 # Spotify Top Brazil
 
-This project is a Streamlit application that visualizes top songs in Brazil using a local CSV file.
+This project is a Streamlit application that visualizes top songs in Brazil using a local CSV file, that can be reqeuested from Spotify API using the credentials.
+<img width="1906" height="869" alt="image" src="https://github.com/user-attachments/assets/1d3ab88d-023e-44c5-b66a-f823518ed939" />
+The project was done for the : Fast-Track Challenge, Institute Minerva. Week 1.<br>
+[Institute Minerva](https://minerva.org.br/)
 
 ## Project Structure
 
