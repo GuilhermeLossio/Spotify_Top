@@ -1,0 +1,794 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPError",
+        "importPath": "urllib.error",
+        "description": "urllib.error",
+        "isExtraImport": true,
+        "detail": "urllib.error",
+        "documentation": {}
+    },
+    {
+        "label": "URLError",
+        "importPath": "urllib.error",
+        "description": "urllib.error",
+        "isExtraImport": true,
+        "detail": "urllib.error",
+        "documentation": {}
+    },
+    {
+        "label": "urlencode",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "isExtraImport": true,
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "urlopen",
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "isExtraImport": true,
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "load_top_songs_from_csv",
+        "importPath": "backend",
+        "description": "backend",
+        "isExtraImport": true,
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "load_top_songs",
+        "importPath": "backend",
+        "description": "backend",
+        "isExtraImport": true,
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "save_top_songs_to_csv",
+        "importPath": "backend",
+        "description": "backend",
+        "isExtraImport": true,
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "DataSourceError",
+        "importPath": "backend",
+        "description": "backend",
+        "isExtraImport": true,
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "load_top_songs",
+        "importPath": "backend",
+        "description": "backend",
+        "isExtraImport": true,
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "load_top_songs_from_csv",
+        "importPath": "backend",
+        "description": "backend",
+        "isExtraImport": true,
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "save_top_songs_to_csv",
+        "importPath": "backend",
+        "description": "backend",
+        "isExtraImport": true,
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "DataSourceError",
+        "importPath": "backend",
+        "description": "backend",
+        "isExtraImport": true,
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "compute_summary_metrics",
+        "importPath": "backend",
+        "description": "backend",
+        "isExtraImport": true,
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "load_top_songs_from_csv",
+        "importPath": "backend",
+        "description": "backend",
+        "isExtraImport": true,
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_LIMIT",
+        "importPath": "backend.common",
+        "description": "backend.common",
+        "isExtraImport": true,
+        "detail": "backend.common",
+        "documentation": {}
+    },
+    {
+        "label": "DataSourceError",
+        "importPath": "backend.common",
+        "description": "backend.common",
+        "isExtraImport": true,
+        "detail": "backend.common",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_positive_int",
+        "importPath": "backend.common",
+        "description": "backend.common",
+        "isExtraImport": true,
+        "detail": "backend.common",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_LIMIT",
+        "importPath": "backend.common",
+        "description": "backend.common",
+        "isExtraImport": true,
+        "detail": "backend.common",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_positive_int",
+        "importPath": "backend.common",
+        "description": "backend.common",
+        "isExtraImport": true,
+        "detail": "backend.common",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_LIMIT",
+        "importPath": "backend.common",
+        "description": "backend.common",
+        "isExtraImport": true,
+        "detail": "backend.common",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_positive_int",
+        "importPath": "backend.common",
+        "description": "backend.common",
+        "isExtraImport": true,
+        "detail": "backend.common",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "BaseHTTPRequestHandler",
+        "importPath": "http.server",
+        "description": "http.server",
+        "isExtraImport": true,
+        "detail": "http.server",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadingHTTPServer",
+        "importPath": "http.server",
+        "description": "http.server",
+        "isExtraImport": true,
+        "detail": "http.server",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "DataSourceError",
+        "kind": 6,
+        "importPath": "backend.common",
+        "description": "backend.common",
+        "peekOfCode": "class DataSourceError(RuntimeError):\n    \"\"\"Raised when chart data cannot be loaded or validated.\"\"\"\ndef ensure_positive_int(value: Any, *, field_name: str) -> int:\n    try:\n        parsed = int(value)\n    except (TypeError, ValueError) as exc:\n        raise DataSourceError(f\"{field_name} must be an integer.\") from exc\n    if parsed <= 0:\n        raise DataSourceError(f\"{field_name} must be greater than zero.\")\n    return parsed",
+        "detail": "backend.common",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_positive_int",
+        "kind": 2,
+        "importPath": "backend.common",
+        "description": "backend.common",
+        "peekOfCode": "def ensure_positive_int(value: Any, *, field_name: str) -> int:\n    try:\n        parsed = int(value)\n    except (TypeError, ValueError) as exc:\n        raise DataSourceError(f\"{field_name} must be an integer.\") from exc\n    if parsed <= 0:\n        raise DataSourceError(f\"{field_name} must be greater than zero.\")\n    return parsed",
+        "detail": "backend.common",
+        "documentation": {}
+    },
+    {
+        "label": "REQUIRED_COLUMNS",
+        "kind": 5,
+        "importPath": "backend.common",
+        "description": "backend.common",
+        "peekOfCode": "REQUIRED_COLUMNS = (\"position\", \"track\", \"artist\", \"streams\")\nDEFAULT_LIMIT = 50\nclass DataSourceError(RuntimeError):\n    \"\"\"Raised when chart data cannot be loaded or validated.\"\"\"\ndef ensure_positive_int(value: Any, *, field_name: str) -> int:\n    try:\n        parsed = int(value)\n    except (TypeError, ValueError) as exc:\n        raise DataSourceError(f\"{field_name} must be an integer.\") from exc\n    if parsed <= 0:",
+        "detail": "backend.common",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_LIMIT",
+        "kind": 5,
+        "importPath": "backend.common",
+        "description": "backend.common",
+        "peekOfCode": "DEFAULT_LIMIT = 50\nclass DataSourceError(RuntimeError):\n    \"\"\"Raised when chart data cannot be loaded or validated.\"\"\"\ndef ensure_positive_int(value: Any, *, field_name: str) -> int:\n    try:\n        parsed = int(value)\n    except (TypeError, ValueError) as exc:\n        raise DataSourceError(f\"{field_name} must be an integer.\") from exc\n    if parsed <= 0:\n        raise DataSourceError(f\"{field_name} must be greater than zero.\")",
+        "detail": "backend.common",
+        "documentation": {}
+    },
+    {
+        "label": "load_top_songs_from_csv",
+        "kind": 2,
+        "importPath": "backend.csv_service",
+        "description": "backend.csv_service",
+        "peekOfCode": "def load_top_songs_from_csv(\n    limit: int,\n    csv_path: Path | str = DEFAULT_CSV_PATH,\n) -> pd.DataFrame:\n    limit = ensure_positive_int(limit, field_name=\"The limit\")\n    source_path = Path(csv_path)\n    if not source_path.exists():\n        raise DataSourceError(f\"CSV file not found: {source_path}\")\n    df = _read_csv_with_fallbacks(source_path)\n    normalized = _normalize_top_songs_dataframe(df).head(limit).reset_index(drop=True)",
+        "detail": "backend.csv_service",
+        "documentation": {}
+    },
+    {
+        "label": "save_top_songs_to_csv",
+        "kind": 2,
+        "importPath": "backend.csv_service",
+        "description": "backend.csv_service",
+        "peekOfCode": "def save_top_songs_to_csv(\n    df: pd.DataFrame,\n    csv_path: Path | str = DEFAULT_CSV_PATH,\n) -> Path:\n    normalized = _normalize_top_songs_dataframe(df)\n    if normalized.empty:\n        raise DataSourceError(\"No valid rows to save in CSV.\")\n    target_path = Path(csv_path)\n    target_path.parent.mkdir(parents=True, exist_ok=True)\n    normalized.to_csv(target_path, index=False, encoding=\"utf-8\")",
+        "detail": "backend.csv_service",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_CSV_PATH",
+        "kind": 5,
+        "importPath": "backend.csv_service",
+        "description": "backend.csv_service",
+        "peekOfCode": "DEFAULT_CSV_PATH = Path(\"data/top_songs_brasil.csv\")\nCSV_ENCODINGS = (\"utf-8\", \"utf-8-sig\", \"cp1252\", \"latin-1\")\ndef _read_csv_with_fallbacks(csv_path: Path, encodings: Iterable[str] = CSV_ENCODINGS) -> pd.DataFrame:\n    last_error: Exception | None = None\n    for encoding in encodings:\n        try:\n            return pd.read_csv(csv_path, encoding=encoding)\n        except UnicodeDecodeError as exc:\n            last_error = exc\n            continue",
+        "detail": "backend.csv_service",
+        "documentation": {}
+    },
+    {
+        "label": "CSV_ENCODINGS",
+        "kind": 5,
+        "importPath": "backend.csv_service",
+        "description": "backend.csv_service",
+        "peekOfCode": "CSV_ENCODINGS = (\"utf-8\", \"utf-8-sig\", \"cp1252\", \"latin-1\")\ndef _read_csv_with_fallbacks(csv_path: Path, encodings: Iterable[str] = CSV_ENCODINGS) -> pd.DataFrame:\n    last_error: Exception | None = None\n    for encoding in encodings:\n        try:\n            return pd.read_csv(csv_path, encoding=encoding)\n        except UnicodeDecodeError as exc:\n            last_error = exc\n            continue\n    if last_error:",
+        "detail": "backend.csv_service",
+        "documentation": {}
+    },
+    {
+        "label": "SummaryMetrics",
+        "kind": 6,
+        "importPath": "backend.spotify_service",
+        "description": "backend.spotify_service",
+        "peekOfCode": "class SummaryMetrics:\n    total_tracks: int\n    total_streams: int\n    avg_streams: int\n    top_track: str\ndef _is_forbidden_error(error: DataSourceError) -> bool:\n    return \"Spotify API error (403)\" in str(error)\ndef _clean_env_value(value: str) -> str:\n    cleaned = value.strip()\n    if cleaned.endswith(\";\"):",
+        "detail": "backend.spotify_service",
+        "documentation": {}
+    },
+    {
+        "label": "load_top_songs",
+        "kind": 2,
+        "importPath": "backend.spotify_service",
+        "description": "backend.spotify_service",
+        "peekOfCode": "def load_top_songs(limit: int = DEFAULT_LIMIT, env_path: Path | str = Path(\".env\")) -> pd.DataFrame:\n    limit = ensure_positive_int(limit, field_name=\"The limit\")\n    config = _load_config(Path(env_path))\n    playlist_id = config.get(\"SPOTIFY_PLAYLIST_ID\", DEFAULT_PLAYLIST_ID) or DEFAULT_PLAYLIST_ID\n    market = config.get(\"SPOTIFY_MARKET\", DEFAULT_MARKET) or DEFAULT_MARKET\n    token = _resolve_access_token(config)\n    playlist_items = _fetch_playlist_tracks(token, playlist_id, market)\n    rows: list[dict[str, Any]] = []\n    for item in playlist_items:\n        track = item.get(\"track\")",
+        "detail": "backend.spotify_service",
+        "documentation": {}
+    },
+    {
+        "label": "compute_summary_metrics",
+        "kind": 2,
+        "importPath": "backend.spotify_service",
+        "description": "backend.spotify_service",
+        "peekOfCode": "def compute_summary_metrics(df: pd.DataFrame) -> SummaryMetrics:\n    if df.empty:\n        return SummaryMetrics(\n            total_tracks=0,\n            total_streams=0,\n            avg_streams=0,\n            top_track=\"\",\n        )\n    total_tracks = len(df)\n    total_streams = int(df[\"streams\"].sum())",
+        "detail": "backend.spotify_service",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_PLAYLIST_ID",
+        "kind": 5,
+        "importPath": "backend.spotify_service",
+        "description": "backend.spotify_service",
+        "peekOfCode": "DEFAULT_PLAYLIST_ID = \"37i9dQZEVXbMXbN3EUUhlg\"\nDEFAULT_MARKET = \"BR\"\nSPOTIFY_API_BASE = \"https://api.spotify.com/v1\"\nSPOTIFY_TOKEN_URL = \"https://accounts.spotify.com/api/token\"\n@dataclass(frozen=True)\nclass SummaryMetrics:\n    total_tracks: int\n    total_streams: int\n    avg_streams: int\n    top_track: str",
+        "detail": "backend.spotify_service",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_MARKET",
+        "kind": 5,
+        "importPath": "backend.spotify_service",
+        "description": "backend.spotify_service",
+        "peekOfCode": "DEFAULT_MARKET = \"BR\"\nSPOTIFY_API_BASE = \"https://api.spotify.com/v1\"\nSPOTIFY_TOKEN_URL = \"https://accounts.spotify.com/api/token\"\n@dataclass(frozen=True)\nclass SummaryMetrics:\n    total_tracks: int\n    total_streams: int\n    avg_streams: int\n    top_track: str\ndef _is_forbidden_error(error: DataSourceError) -> bool:",
+        "detail": "backend.spotify_service",
+        "documentation": {}
+    },
+    {
+        "label": "SPOTIFY_API_BASE",
+        "kind": 5,
+        "importPath": "backend.spotify_service",
+        "description": "backend.spotify_service",
+        "peekOfCode": "SPOTIFY_API_BASE = \"https://api.spotify.com/v1\"\nSPOTIFY_TOKEN_URL = \"https://accounts.spotify.com/api/token\"\n@dataclass(frozen=True)\nclass SummaryMetrics:\n    total_tracks: int\n    total_streams: int\n    avg_streams: int\n    top_track: str\ndef _is_forbidden_error(error: DataSourceError) -> bool:\n    return \"Spotify API error (403)\" in str(error)",
+        "detail": "backend.spotify_service",
+        "documentation": {}
+    },
+    {
+        "label": "SPOTIFY_TOKEN_URL",
+        "kind": 5,
+        "importPath": "backend.spotify_service",
+        "description": "backend.spotify_service",
+        "peekOfCode": "SPOTIFY_TOKEN_URL = \"https://accounts.spotify.com/api/token\"\n@dataclass(frozen=True)\nclass SummaryMetrics:\n    total_tracks: int\n    total_streams: int\n    avg_streams: int\n    top_track: str\ndef _is_forbidden_error(error: DataSourceError) -> bool:\n    return \"Spotify API error (403)\" in str(error)\ndef _clean_env_value(value: str) -> str:",
+        "detail": "backend.spotify_service",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "jobs.daily_csv_to_sqlite",
+        "description": "jobs.daily_csv_to_sqlite",
+        "peekOfCode": "def main() -> None:\n    csv_path = Path(os.getenv(\"SPOTIFY_CSV_PATH\", str(DEFAULT_CSV_PATH)).strip())\n    db_path = Path(os.getenv(\"SPOTIFY_SQLITE_PATH\", str(DEFAULT_DB_PATH)).strip())\n    limit = ensure_positive_int(\n        os.getenv(\"SPOTIFY_LIMIT\", str(DEFAULT_LIMIT)).strip(),\n        field_name=\"SPOTIFY_LIMIT\",\n    )\n    table_name = _read_table_name()\n    df = load_top_songs_from_csv(limit=limit, csv_path=csv_path)\n    run_at = datetime.now(timezone.utc)",
+        "detail": "jobs.daily_csv_to_sqlite",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "jobs.daily_csv_to_sqlite",
+        "description": "jobs.daily_csv_to_sqlite",
+        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nif str(PROJECT_ROOT) not in sys.path:\n    sys.path.insert(0, str(PROJECT_ROOT))\nfrom backend import load_top_songs_from_csv\nfrom backend.common import DEFAULT_LIMIT, DataSourceError, ensure_positive_int\nDEFAULT_TABLE_NAME = \"spotify_top_daily\"\nDEFAULT_DB_PATH = Path(\"data/spotify_top.db\")\nDEFAULT_CSV_PATH = Path(\"data/top_songs_brasil.csv\")\ndef _read_table_name() -> str:\n    table_name = os.getenv(\"SPOTIFY_DB_TABLE\", DEFAULT_TABLE_NAME).strip()",
+        "detail": "jobs.daily_csv_to_sqlite",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_TABLE_NAME",
+        "kind": 5,
+        "importPath": "jobs.daily_csv_to_sqlite",
+        "description": "jobs.daily_csv_to_sqlite",
+        "peekOfCode": "DEFAULT_TABLE_NAME = \"spotify_top_daily\"\nDEFAULT_DB_PATH = Path(\"data/spotify_top.db\")\nDEFAULT_CSV_PATH = Path(\"data/top_songs_brasil.csv\")\ndef _read_table_name() -> str:\n    table_name = os.getenv(\"SPOTIFY_DB_TABLE\", DEFAULT_TABLE_NAME).strip()\n    if not re.fullmatch(r\"[A-Za-z_][A-Za-z0-9_]*\", table_name):\n        raise DataSourceError(\n            \"SPOTIFY_DB_TABLE must use only letters, digits, and underscore, \"\n            \"starting with a letter or underscore.\"\n        )",
+        "detail": "jobs.daily_csv_to_sqlite",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_DB_PATH",
+        "kind": 5,
+        "importPath": "jobs.daily_csv_to_sqlite",
+        "description": "jobs.daily_csv_to_sqlite",
+        "peekOfCode": "DEFAULT_DB_PATH = Path(\"data/spotify_top.db\")\nDEFAULT_CSV_PATH = Path(\"data/top_songs_brasil.csv\")\ndef _read_table_name() -> str:\n    table_name = os.getenv(\"SPOTIFY_DB_TABLE\", DEFAULT_TABLE_NAME).strip()\n    if not re.fullmatch(r\"[A-Za-z_][A-Za-z0-9_]*\", table_name):\n        raise DataSourceError(\n            \"SPOTIFY_DB_TABLE must use only letters, digits, and underscore, \"\n            \"starting with a letter or underscore.\"\n        )\n    return table_name",
+        "detail": "jobs.daily_csv_to_sqlite",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_CSV_PATH",
+        "kind": 5,
+        "importPath": "jobs.daily_csv_to_sqlite",
+        "description": "jobs.daily_csv_to_sqlite",
+        "peekOfCode": "DEFAULT_CSV_PATH = Path(\"data/top_songs_brasil.csv\")\ndef _read_table_name() -> str:\n    table_name = os.getenv(\"SPOTIFY_DB_TABLE\", DEFAULT_TABLE_NAME).strip()\n    if not re.fullmatch(r\"[A-Za-z_][A-Za-z0-9_]*\", table_name):\n        raise DataSourceError(\n            \"SPOTIFY_DB_TABLE must use only letters, digits, and underscore, \"\n            \"starting with a letter or underscore.\"\n        )\n    return table_name\ndef main() -> None:",
+        "detail": "jobs.daily_csv_to_sqlite",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "jobs.update_csv_from_spotify",
+        "description": "jobs.update_csv_from_spotify",
+        "peekOfCode": "def main() -> None:\n    limit = ensure_positive_int(\n        os.getenv(\"SPOTIFY_LIMIT\", str(DEFAULT_LIMIT)).strip(),\n        field_name=\"SPOTIFY_LIMIT\",\n    )\n    csv_path = Path(os.getenv(\"SPOTIFY_CSV_PATH\", str(DEFAULT_CSV_PATH)).strip() or str(DEFAULT_CSV_PATH))\n    env_path = Path(os.getenv(\"SPOTIFY_ENV_PATH\", str(DEFAULT_ENV_PATH)).strip() or str(DEFAULT_ENV_PATH))\n    dataframe = load_top_songs(limit=limit, env_path=env_path)\n    saved_path = save_top_songs_to_csv(dataframe, csv_path=csv_path)\n    print(",
+        "detail": "jobs.update_csv_from_spotify",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_CSV_PATH",
+        "kind": 5,
+        "importPath": "jobs.update_csv_from_spotify",
+        "description": "jobs.update_csv_from_spotify",
+        "peekOfCode": "DEFAULT_CSV_PATH = Path(\"data/top_songs_brasil.csv\")\nDEFAULT_ENV_PATH = Path(\".env\")\ndef main() -> None:\n    limit = ensure_positive_int(\n        os.getenv(\"SPOTIFY_LIMIT\", str(DEFAULT_LIMIT)).strip(),\n        field_name=\"SPOTIFY_LIMIT\",\n    )\n    csv_path = Path(os.getenv(\"SPOTIFY_CSV_PATH\", str(DEFAULT_CSV_PATH)).strip() or str(DEFAULT_CSV_PATH))\n    env_path = Path(os.getenv(\"SPOTIFY_ENV_PATH\", str(DEFAULT_ENV_PATH)).strip() or str(DEFAULT_ENV_PATH))\n    dataframe = load_top_songs(limit=limit, env_path=env_path)",
+        "detail": "jobs.update_csv_from_spotify",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_ENV_PATH",
+        "kind": 5,
+        "importPath": "jobs.update_csv_from_spotify",
+        "description": "jobs.update_csv_from_spotify",
+        "peekOfCode": "DEFAULT_ENV_PATH = Path(\".env\")\ndef main() -> None:\n    limit = ensure_positive_int(\n        os.getenv(\"SPOTIFY_LIMIT\", str(DEFAULT_LIMIT)).strip(),\n        field_name=\"SPOTIFY_LIMIT\",\n    )\n    csv_path = Path(os.getenv(\"SPOTIFY_CSV_PATH\", str(DEFAULT_CSV_PATH)).strip() or str(DEFAULT_CSV_PATH))\n    env_path = Path(os.getenv(\"SPOTIFY_ENV_PATH\", str(DEFAULT_ENV_PATH)).strip() or str(DEFAULT_ENV_PATH))\n    dataframe = load_top_songs(limit=limit, env_path=env_path)\n    saved_path = save_top_songs_to_csv(dataframe, csv_path=csv_path)",
+        "detail": "jobs.update_csv_from_spotify",
+        "documentation": {}
+    },
+    {
+        "label": "CsvApiHandler",
+        "kind": 6,
+        "importPath": "api_csv_server",
+        "description": "api_csv_server",
+        "peekOfCode": "class CsvApiHandler(BaseHTTPRequestHandler):\n    server_version = \"SpotifyTopCsvRoute/1.0\"\n    def _send_json(self, status_code: int, payload: dict[str, Any]) -> None:\n        body = json.dumps(payload, ensure_ascii=False).encode(\"utf-8\")\n        self.send_response(status_code)\n        self.send_header(\"Content-Type\", \"application/json; charset=utf-8\")\n        self.send_header(\"Content-Length\", str(len(body)))\n        self.end_headers()\n        self.wfile.write(body)\n    def _read_json_body(self) -> dict[str, Any]:",
+        "detail": "api_csv_server",
+        "documentation": {}
+    },
+    {
+        "label": "process_update_request",
+        "kind": 2,
+        "importPath": "api_csv_server",
+        "description": "api_csv_server",
+        "peekOfCode": "def process_update_request(payload: dict[str, Any]) -> dict[str, Any]:\n    source = str(payload.get(\"source\", \"spotify\")).strip().lower()\n    csv_path_raw = str(payload.get(\"csv_path\", str(DEFAULT_CSV_PATH))).strip()\n    csv_path = Path(csv_path_raw or str(DEFAULT_CSV_PATH))\n    if source == \"spotify\":\n        limit = ensure_positive_int(payload.get(\"limit\", DEFAULT_LIMIT), field_name=\"limit\")\n        env_path = Path(str(payload.get(\"env_path\", \".env\")).strip() or \".env\")\n        dataframe = load_top_songs(limit=limit, env_path=env_path)\n    elif source == \"rows\":\n        dataframe = _read_payload_rows(payload.get(\"rows\"))",
+        "detail": "api_csv_server",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "api_csv_server",
+        "description": "api_csv_server",
+        "peekOfCode": "def main() -> None:\n    parser = argparse.ArgumentParser(description=\"Route server to update CSV data.\")\n    parser.add_argument(\"--host\", default=DEFAULT_HOST, help=f\"Bind host (default: {DEFAULT_HOST}).\")\n    parser.add_argument(\"--port\", type=int, default=DEFAULT_PORT, help=f\"Bind port (default: {DEFAULT_PORT}).\")\n    args = parser.parse_args()\n    logging.basicConfig(level=logging.INFO, format=\"%(asctime)s %(levelname)s %(name)s - %(message)s\")\n    with ThreadingHTTPServer((args.host, args.port), CsvApiHandler) as server:\n        LOGGER.info(\"CSV route server running on http://%s:%s\", args.host, args.port)\n        server.serve_forever()\nif __name__ == \"__main__\":",
+        "detail": "api_csv_server",
+        "documentation": {}
+    },
+    {
+        "label": "LOGGER",
+        "kind": 5,
+        "importPath": "api_csv_server",
+        "description": "api_csv_server",
+        "peekOfCode": "LOGGER = logging.getLogger(\"csv_api\")\nDEFAULT_HOST = \"127.0.0.1\"\nDEFAULT_PORT = 8080\nDEFAULT_CSV_PATH = Path(\"data/top_songs_brasil.csv\")\ndef _read_payload_rows(rows_value: Any) -> pd.DataFrame:\n    if not isinstance(rows_value, list):\n        raise DataSourceError(\"rows must be an array when source is 'rows'.\")\n    if not rows_value:\n        raise DataSourceError(\"rows cannot be empty when source is 'rows'.\")\n    return pd.DataFrame(rows_value)",
+        "detail": "api_csv_server",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_HOST",
+        "kind": 5,
+        "importPath": "api_csv_server",
+        "description": "api_csv_server",
+        "peekOfCode": "DEFAULT_HOST = \"127.0.0.1\"\nDEFAULT_PORT = 8080\nDEFAULT_CSV_PATH = Path(\"data/top_songs_brasil.csv\")\ndef _read_payload_rows(rows_value: Any) -> pd.DataFrame:\n    if not isinstance(rows_value, list):\n        raise DataSourceError(\"rows must be an array when source is 'rows'.\")\n    if not rows_value:\n        raise DataSourceError(\"rows cannot be empty when source is 'rows'.\")\n    return pd.DataFrame(rows_value)\ndef process_update_request(payload: dict[str, Any]) -> dict[str, Any]:",
+        "detail": "api_csv_server",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_PORT",
+        "kind": 5,
+        "importPath": "api_csv_server",
+        "description": "api_csv_server",
+        "peekOfCode": "DEFAULT_PORT = 8080\nDEFAULT_CSV_PATH = Path(\"data/top_songs_brasil.csv\")\ndef _read_payload_rows(rows_value: Any) -> pd.DataFrame:\n    if not isinstance(rows_value, list):\n        raise DataSourceError(\"rows must be an array when source is 'rows'.\")\n    if not rows_value:\n        raise DataSourceError(\"rows cannot be empty when source is 'rows'.\")\n    return pd.DataFrame(rows_value)\ndef process_update_request(payload: dict[str, Any]) -> dict[str, Any]:\n    source = str(payload.get(\"source\", \"spotify\")).strip().lower()",
+        "detail": "api_csv_server",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_CSV_PATH",
+        "kind": 5,
+        "importPath": "api_csv_server",
+        "description": "api_csv_server",
+        "peekOfCode": "DEFAULT_CSV_PATH = Path(\"data/top_songs_brasil.csv\")\ndef _read_payload_rows(rows_value: Any) -> pd.DataFrame:\n    if not isinstance(rows_value, list):\n        raise DataSourceError(\"rows must be an array when source is 'rows'.\")\n    if not rows_value:\n        raise DataSourceError(\"rows cannot be empty when source is 'rows'.\")\n    return pd.DataFrame(rows_value)\ndef process_update_request(payload: dict[str, Any]) -> dict[str, Any]:\n    source = str(payload.get(\"source\", \"spotify\")).strip().lower()\n    csv_path_raw = str(payload.get(\"csv_path\", str(DEFAULT_CSV_PATH))).strip()",
+        "detail": "api_csv_server",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_top_songs",
+        "kind": 2,
+        "importPath": "streamlit_app",
+        "description": "streamlit_app",
+        "peekOfCode": "def fetch_top_songs():\n    return load_top_songs_from_csv(limit=50)\ndef render_styles() -> None:\n    st.markdown(\n        '<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">',\n        unsafe_allow_html=True,\n    )\n    st.markdown(\n        \"\"\"\n<style>",
+        "detail": "streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "render_styles",
+        "kind": 2,
+        "importPath": "streamlit_app",
+        "description": "streamlit_app",
+        "peekOfCode": "def render_styles() -> None:\n    st.markdown(\n        '<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">',\n        unsafe_allow_html=True,\n    )\n    st.markdown(\n        \"\"\"\n<style>\n.bootstrap-container {padding: 1rem 1.25rem;}\n.stApp {",
+        "detail": "streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "render_header",
+        "kind": 2,
+        "importPath": "streamlit_app",
+        "description": "streamlit_app",
+        "peekOfCode": "def render_header() -> None:\n    st.markdown(\n        \"\"\"\n<div class=\"container bootstrap-container\">\n  <div class=\"row align-items-center\">\n    <div class=\"col-md-9\">\n      <h1 class=\"mb-1\">Spotify Top Songs - Brazil</h1>\n      <p class=\"header-lead\">Explore top tracks loaded from local CSV file.</p>\n    </div>\n    <div class=\"col-md-3 text-md-end text-start\">",
+        "detail": "streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "render_ranking",
+        "kind": 2,
+        "importPath": "streamlit_app",
+        "description": "streamlit_app",
+        "peekOfCode": "def render_ranking(df) -> None:\n    st.subheader(\"Ranking\")\n    st.dataframe(\n        df,\n        width=\"stretch\",\n        hide_index=True,\n        column_config={\n            \"position\": st.column_config.NumberColumn(\"Posicao\", format=\"#%d\"),\n            \"track\": \"Musica\",\n            \"artist\": \"Artista\",",
+        "detail": "streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "render_metrics",
+        "kind": 2,
+        "importPath": "streamlit_app",
+        "description": "streamlit_app",
+        "peekOfCode": "def render_metrics(metrics) -> None:\n    st.markdown(\n        f\"\"\"\n<div class=\"container bootstrap-container\">\n  <div class=\"row gx-3\">\n    <div class=\"col-sm-6 col-md-3 mb-3\">\n      <div class=\"card text-center\">\n        <div class=\"card-body\">\n          <h6 class=\"card-subtitle mb-2\">Total tracks</h6>\n          <div class=\"card-title card-value\">{metrics.total_tracks}</div>",
+        "detail": "streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "render_chart",
+        "kind": 2,
+        "importPath": "streamlit_app",
+        "description": "streamlit_app",
+        "peekOfCode": "def render_chart(df) -> None:\n    st.subheader(\"Popularidade por faixa\")\n    chart_df = df.set_index(\"track\")[\"streams\"]\n    st.bar_chart(chart_df, color=\"#1DB954\")\ndef main() -> None:\n    st.set_page_config(page_title=\"Spotify Top Brazil\", layout=\"wide\")\n    render_styles()\n    render_header()\n    try:\n        with st.spinner(\"Carregando dados do arquivo CSV...\"):",
+        "detail": "streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "streamlit_app",
+        "description": "streamlit_app",
+        "peekOfCode": "def main() -> None:\n    st.set_page_config(page_title=\"Spotify Top Brazil\", layout=\"wide\")\n    render_styles()\n    render_header()\n    try:\n        with st.spinner(\"Carregando dados do arquivo CSV...\"):\n            df = fetch_top_songs()\n    except DataSourceError as exc:\n        logger.exception(\"Falha ao carregar dados do CSV\")\n        st.error(str(exc))",
+        "detail": "streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "streamlit_app",
+        "description": "streamlit_app",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@st.cache_data(ttl=900, show_spinner=False)\ndef fetch_top_songs():\n    return load_top_songs_from_csv(limit=50)\ndef render_styles() -> None:\n    st.markdown(\n        '<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\">',\n        unsafe_allow_html=True,\n    )\n    st.markdown(",
+        "detail": "streamlit_app",
+        "documentation": {}
+    }
+]

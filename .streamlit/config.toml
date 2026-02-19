@@ -1,0 +1,8 @@
+[theme]
+base = "dark"
+
+# Optional: override some theme colors if you want
+# primaryColor = "#1DB954"
+# backgroundColor = "#071028"
+# secondaryBackgroundColor = "#0b1020"
+# textColor = "#e6eef8"

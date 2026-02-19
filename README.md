@@ -1,43 +1,109 @@
-# Spotify Top Brazil 🇧🇷
+# Spotify Top Brazil
 
-This project is a Streamlit application that visualizes the top songs in Brazil using a modern, Bootstrap-styled interface.
+This project is a Streamlit application that visualizes top songs in Brazil using a local CSV file.
 
-## 🚀 Getting Started
+## Project Structure
+
+- `streamlit_app.py`: frontend layer (UI rendering and user interaction).
+- `backend/common.py`: shared constants (`REQUIRED_COLUMNS`, `DEFAULT_LIMIT`) and validation helpers.
+- `backend/csv_service.py`: CSV loading and validation.
+- `backend/spotify_service.py`: Spotify API integration (kept for future sync jobs).
+- `jobs/daily_csv_to_sqlite.py`: daily snapshot job from CSV to SQLite.
+- `data/top_songs_brasil.csv`: source file used by the app.
+
+## Getting Started
 
 ### Prerequisites
 
-Ensure you have Python installed. You will need the following libraries:
-
-- `streamlit`
-- `pandas`
-
-You can install them using pip:
+Install Python and required libraries:
 
 ```bash
 pip install streamlit pandas
 ```
 
-### Running the Local Server
+### Run Locally
 
-To start the application locally, run the following command in your terminal:
+Start the frontend:
 
 ```bash
 streamlit run streamlit_app.py
 ```
 
-The application will automatically open in your default web browser at `http://localhost:8501`.
+The application opens at `http://localhost:8501`.
 
-## 📊 Data Source & Import
+## CSV Format
 
-Currently, the application imports data from a local CSV file located at `data/top_songs_brasil.csv`.
+The app expects `data/top_songs_brasil.csv` with these columns:
 
-**Note on API Access:**
-Direct integration with the Spotify API is currently disabled because the API key has restricted access. As a workaround, we are using a static CSV dataset to simulate the chart data. Once API access is restored or configured, the data source can be switched to live fetching.
+- `position`
+- `track`
+- `artist`
+- `streams`
 
-### CSV Structure
+Validation for required columns and positive numeric limits is centralized in `backend/common.py`.
 
-The CSV file is expected to have the following columns:
-- `position`: The rank of the song.
-- `track`: The name of the song.
-- `artist`: The artist name.
-- `streams`: The number of streams.
+## Daily Database Snapshot (SQLite)
+
+Run the daily job manually:
+
+```bash
+python jobs/daily_csv_to_sqlite.py
+```
+
+Optional environment variables:
+
+```env
+SPOTIFY_CSV_PATH=data/top_songs_brasil.csv
+SPOTIFY_SQLITE_PATH=data/spotify_top.db
+SPOTIFY_DB_TABLE=spotify_top_daily
+SPOTIFY_LIMIT=50
+```
+
+For a daily event, schedule the command above in Windows Task Scheduler (or cron on Linux).
+
+## Route To Update CSV
+
+Start a lightweight HTTP server:
+
+```bash
+python api_csv_server.py --host 127.0.0.1 --port 8080
+```
+
+Health check:
+
+```bash
+curl http://127.0.0.1:8080/health
+```
+
+Update CSV from Spotify API:
+
+```bash
+curl -X POST http://127.0.0.1:8080/routes/csv/update -H "Content-Type: application/json" -d "{\"source\":\"spotify\",\"limit\":50,\"csv_path\":\"data/top_songs_brasil.csv\"}"
+```
+
+Update CSV from payload rows:
+
+```bash
+curl -X POST http://127.0.0.1:8080/routes/csv/update -H "Content-Type: application/json" -d "{\"source\":\"rows\",\"csv_path\":\"data/top_songs_brasil.csv\",\"rows\":[{\"position\":1,\"track\":\"Song\",\"artist\":\"Artist\",\"streams\":123}]}"
+```
+
+## Cron With Streamlit Deploy
+
+If you deploy on Streamlit Community Cloud, there is no native background cron job inside the app runtime.
+Use an external scheduler and update the CSV in the repository.
+
+This repo includes a daily GitHub Actions workflow:
+
+- `.github/workflows/update-csv-daily.yml`
+- `jobs/update_csv_from_spotify.py`
+
+Required GitHub Secrets:
+
+- `SPOTIFY_CLIENT_ID`
+- `SPOTIFY_CLIENT_SECRET`
+- `SPOTIFY_TOKEN` (optional)
+- `SPOTIFY_PLAYLIST_ID` (optional)
+- `SPOTIFY_MARKET` (optional)
+
+The workflow runs daily at `09:00 UTC` and can also be triggered manually via `workflow_dispatch`.
+When the CSV changes, it commits `data/top_songs_brasil.csv` automatically.
