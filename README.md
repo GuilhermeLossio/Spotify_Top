@@ -5,6 +5,8 @@ This project is a Streamlit application that visualizes top songs in Brazil usin
 The project was done for the : Fast-Track Challenge, Institute Minerva. Week 1.<br>
 [Institute Minerva](https://minerva.org.br/)
 
+Online version at: https://spotiytopapp.streamlit.app/
+
 ## Project Structure
 
 - `streamlit_app.py`: frontend layer (UI rendering and user interaction).
